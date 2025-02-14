@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Poppins", serif;
+    font-size: 1.6rem;
+}
+
+:root {
+    --primary-color: #1ebfc1;
+}
+
+/* Common */
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 40px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 186px;
+    border-radius: 14px;
+    background: #1ebfc1;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header.fixed {
+    background: #fff;
+    position: sticky;
+    z-index: 1;
+    top: -37px;
+}
+.header .head {
+    padding: 57px 0 20px;
+    display: flex;
+}
+
+.header .logo {
+    margin-right: auto;
+}
+
+.header .nav {
+    display: flex;
+    align-items: center;
+}
+
+.header .nav-list {
+    display: flex;
+    gap: 39px;
+    padding-right: 177px;
+}
+
+.header .nav-item a {
+    color: #2f3a3b;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header .nav-item:hover {
+    text-decoration: underline;
+}
+
+.header .nav-item:first-child a {
+    font-weight: 600;
+}
+
+.header .nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header .nav-btn .sign-in {
+    color: #494949;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.header .nav-btn .sign-up {
+    min-width: 108px;
+    color: var(--primary-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    border: 1px solid #1ebfc1;
+    padding: 12px 24px;
+    border-radius: 6px;
+}
+
+.header .nav-btn .sign-up:hover {
+    opacity: 0.8;
+}
+
+/* Hero */
+
+.hero {
+    padding-top: 30px;
+}
+
+.hero .body {
+    display: flex;
+}
+
+.hero .info .desc-top {
+    color: #767e7e;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero .info .desc {
+    display: inline-block;
+    width: 372px;
+    color: #9da6a5;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.hero .info .title {
+    margin-top: 16px;
+    margin-bottom: 46px;
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.16;
+}
+
+.hero .img {
+    width: 641px;
+    height: 631px;
+    object-fit: cover;
+}
+
+.hero .hero-cta {
+    margin-top: 52px;
+    display: flex;
+    gap: 50px;
+}
+
+.hero-cta .play-btn {
+    width: 62px;
+    height: 62px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.07);
+}
+
+.hero .btn-cta:hover,
+.hero .play-btn:hover {
+    opacity: 0.8;
+}
