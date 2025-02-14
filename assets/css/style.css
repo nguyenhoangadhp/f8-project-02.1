@@ -147,7 +147,7 @@ a {
     line-height: 1.16;
 }
 
-.hero .img {
+.hero .image {
     width: 641px;
     height: 631px;
     object-fit: cover;
@@ -173,4 +173,74 @@ a {
 .hero .btn-cta:hover,
 .hero .play-btn:hover {
     opacity: 0.8;
+}
+
+/* Features */
+.features {
+    margin-top: 130px;
+}
+
+.features .features-top .desc-top {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.features .title {
+    width: 577px;
+    padding: 18px 0;
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33;
+}
+
+.features .features-top .desc {
+    width: 590px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.features .list {
+    width: 1024px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .list-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.features .list-item:first-child .desc {
+    width: 168px;
+}
+
+.features .list-item:nth-child(2) p {
+    width: 223px;
+}
+
+.features .list-item:nth-child(3) p {
+    width: 224px;
+}
+
+.features .list-item .icon {
+    width: 102px;
+    height: 106px;
+}
+
+.features .list-item span {
+    color: #0d1111;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 26px 0 16px;
+}
+
+.features .list-item .desc {
+    color: #9da6a5;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.69;
 }
