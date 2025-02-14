@@ -244,3 +244,138 @@ a {
     font-weight: 400;
     line-height: 1.69;
 }
+
+/* Courses */
+.courses {
+    margin-top: 130px;
+}
+
+.courses .desc-label {
+    color: #767e7e;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-bottom: 18px;
+    display: flex;
+}
+
+.courses .title {
+    padding-bottom: 19px;
+    color: #0d1111;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+
+.courses .courses-top .desc {
+    width: 525px;
+    color: #767e7e;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.78;
+}
+
+.courses .desc-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.courses .desc-top .view-all {
+    color: #1ebfc1;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.courses .desc-top .view-all:hover {
+    opacity: 0.8;
+}
+
+.courses-list {
+    margin-top: 79px;
+}
+
+.courses .list {
+    display: flex;
+    gap: 47px;
+}
+
+.courses .list-item {
+    width: 31%;
+    position: relative;
+}
+
+.courses .list-item .image {
+    width: 359px;
+    height: 393px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.courses .list-item .info {
+    padding: 18px 82px 29px 25px;
+    width: 325px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    right: 17px;
+    bottom: -120px;
+}
+
+.courses .info .title {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.courses .info span {
+    margin-top: 16px;
+    color: #767e7e;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.courses .info span strong {
+    color: #0d1111;
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.courses .info .desc {
+    margin-top: 6px;
+    color: #9da6a5;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.courses .info .detail {
+    margin-top: 16px;
+}
+
+.courses .info .detail span {
+    color: #9da6a5;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 6px;
+}
+
+.courses .info .detail span::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    transform: translateY(-50%);
+    margin-right: 6px;
+}
+
+.courses .info .detail .detail-class {
+    margin-right: 20px;
+}
