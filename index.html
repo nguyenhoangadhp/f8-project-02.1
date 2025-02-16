@@ -18,29 +18,45 @@
         />
     </head>
     <body style="height: 6000px">
-        <header class="header fixed">
+        <header class="header header--fixed">
             <div class="main-content">
                 <!-- Header -->
-                <div class="head">
+                <div class="header__head">
                     <!-- Logo -->
                     <img
-                        class="logo"
+                        class="header__logo"
                         src="./assets/image/logo.svg"
                         alt="Besnik."
                     />
                     <!-- Navigation -->
-                    <nav class="nav">
-                        <ul class="nav-list">
-                            <li class="nav-item"><a href="#!">Home</a></li>
-                            <li class="nav-item"><a href="#!">Features</a></li>
-                            <li class="nav-item"><a href="#!">Pricing</a></li>
-                            <li class="nav-item"><a href="#!">Home</a></li>
-                            <li class="nav-item"><a href="#!">About</a></li>
-                            <li class="nav-item"><a href="#!">Contact</a></li>
+                    <nav class="header__nav">
+                        <ul class="header__nav-list">
+                            <li class="header__nav-item">
+                                <a href="#!">Home</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#!">Features</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#!">Pricing</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#!">Home</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#!">About</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#!">Contact</a>
+                            </li>
                         </ul>
-                        <div class="nav-btn">
-                            <a href="#!" class="sign-in">Sign in</a>
-                            <a href="#!" class="sign-up">Sign up</a>
+                        <div class="header__nav-btn">
+                            <a href="#!" class="header__nav-btn--sign-in"
+                                >Sign in</a
+                            >
+                            <a href="#!" class="header__nav-btn--sign-up"
+                                >Sign up</a
+                            >
                         </div>
                     </nav>
                 </div>
@@ -50,16 +66,18 @@
         <!-- Hero -->
         <div class="hero">
             <div class="main-content">
-                <div class="body">
-                    <div class="info">
-                        <p class="desc-top">😎 EASY LEARNING PLATFORM</p>
-                        <h1 class="title">Words learner come here.</h1>
-                        <p class="desc">
+                <div class="hero__body">
+                    <div class="hero__body-info">
+                        <p class="hero__desc--top">😎 EASY LEARNING PLATFORM</p>
+                        <h1 class="hero__title">Words learner come here.</h1>
+                        <p class="hero__desc--bottom">
                             Build skills with courses, certificates, and get
                             online knowledge from our world-class platform.
                         </p>
-                        <div class="hero-cta">
-                            <a class="btn btn-cta" href="#!">Get Started</a>
+                        <div class="hero__body-cta">
+                            <a class="btn hero__body-cta-btn" href="#!"
+                                >Get Started</a
+                            >
                             <a class="play-btn" href="#!"
                                 ><img
                                     class=""
@@ -72,7 +90,7 @@
                     <img
                         src="./assets/image/hero.png"
                         alt="Besnik."
-                        class="image"
+                        class="hero__body-img"
                     />
                 </div>
             </div>
@@ -81,54 +99,58 @@
         <!-- Features -->
         <div class="features">
             <div class="main-content">
-                <div class="body">
-                    <div class="features-top">
-                        <p class="desc-top">F E A T U R E S</p>
-                        <h2 class="title">
+                <div class="features__body">
+                    <div class="features__body-top">
+                        <p class="features__body-desc--top">F E A T U R E S</p>
+                        <h2 class="features__title">
                             We are providing suitable features for students.
                         </h2>
-                        <p class="desc">
+                        <p class="features__body-desc--bottom">
                             Read our awesome feature that is absolutely suit for
                             you. Explore the feature and know the best.
                         </p>
                     </div>
 
-                    <div class="features-working">
-                        <ul class="list">
-                            <li class="list-item">
+                    <div class="features__working">
+                        <ul class="features__list">
+                            <li class="features__list-item">
                                 <img
                                     src="./assets/icon/live.svg"
                                     alt=""
-                                    class="icon"
+                                    class="features__list-item-icon"
                                 />
-                                <span>Live Class</span>
-                                <p class="desc">
+                                <h3 class="feature__list-item-title">
+                                    Live Class
+                                </h3>
+                                <p class="features__list-item-desc">
                                     We are providing live classes with the best
                                     teacher for you
                                 </p>
                             </li>
 
-                            <li class="list-item">
+                            <li class="features__list-item">
                                 <img
                                     src="./assets/icon/discuss.svg"
                                     alt=""
-                                    class="icon"
+                                    class="features__list-item-icon"
                                 />
-                                <span>Live Class</span>
-                                <p class="desc">
+                                <h3 class="feature__list-item-title">
+                                    Disscus
+                                </h3>
+                                <p class="features__list-item-desc">
                                     Conversation with teachers or another
                                     students about task or any other thing
                                 </p>
                             </li>
 
-                            <li class="list-item">
+                            <li class="features__list-item">
                                 <img
                                     src="./assets/icon/task.svg"
                                     alt=""
-                                    class="icon"
+                                    class="features__list-item-icon"
                                 />
-                                <span>Live Class</span>
-                                <p class="desc">
+                                <h3 class="feature__list-item-title">Task</h3>
+                                <p class="features__list-item-desc">
                                     We give every of our students task for
                                     gathering knowledge at home
                                 </p>
@@ -142,28 +164,30 @@
         <!-- Courses -->
         <div class="courses">
             <div class="main-content">
-                <div class="body">
+                <div class="courses__body">
                     <!-- Courses top -->
-                    <div class="courses-top">
-                        <p class="desc-label">C O U R S E S</p>
-                        <h2 class="title">Popular Courses</h2>
-                        <div class="desc-top">
+                    <div class="courses__top">
+                        <p class="courses__top-desc-label">C O U R S E S</p>
+                        <h2 class="ourses__top-desc-title">Popular Courses</h2>
+                        <div class="courses__desc">
                             <p class="desc">
                                 Check out our most poular courses that suit for
                                 you. Here you can find your favourite one.
                             </p>
-                            <a href="#!" class="view-all">View All Courses</a>
+                            <a href="#!" class="courses__top-view-all"
+                                >View All Courses</a
+                            >
                         </div>
                     </div>
-                    <div class="courses-list">
+                    <div class="courses__list">
                         <ul class="list">
-                            <li class="list-item">
+                            <li class="courses__list-item">
                                 <img
                                     src="./assets/image/course-1.jpg"
                                     alt=""
-                                    class="image"
+                                    class="courses__list-item-image"
                                 />
-                                <div class="info">
+                                <div class="courses__list-item-info">
                                     <h3 class="title">Web Design</h3>
                                     <span> Fee <strong>$200</strong> </span>
                                     <p class="desc">
@@ -178,13 +202,13 @@
                                 </div>
                             </li>
 
-                            <li class="list-item">
+                            <li class="courses__list-item">
                                 <img
                                     src="./assets/image/course-2.jpg"
                                     alt=""
-                                    class="image"
+                                    class="courses__list-item-image"
                                 />
-                                <div class="info">
+                                <div class="courses__list-item-info">
                                     <h3 class="title">Web Development</h3>
                                     <span> Fee <strong>$250</strong> </span>
                                     <p class="desc">
@@ -199,13 +223,13 @@
                                 </div>
                             </li>
 
-                            <li class="list-item">
+                            <li class="courses__list-item">
                                 <img
                                     src="./assets/image/course-3.jpg"
                                     alt=""
-                                    class="image"
+                                    class="courses__list-item-image"
                                 />
-                                <div class="info">
+                                <div class="courses__list-item-info">
                                     <h3 class="title">UI/UX Design</h3>
                                     <span> Fee <strong>$350</strong> </span>
                                     <p class="desc">
@@ -224,5 +248,47 @@
                 </div>
             </div>
         </div>
+
+        <!-- Countdown -->
+        <div class="countdown">
+            <div class="main-content">
+                <div class="countdown__content">
+                    <ul class="countdown__content-list">
+                        <li class="countdown__content-list-item">
+                            <span class="countdown__content-number">100+</span>
+                            <p class="countdown__content-desc">
+                                Popular Courses
+                            </p>
+                        </li>
+                        <li class="countdown__content-list-item">
+                            <span class="countdown__content-number">500+</span>
+                            <p class="countdown__content-desc">
+                                Skilled Trainer
+                            </p>
+                        </li>
+                        <li class="countdown__content-list-item">
+                            <span class="countdown__content-number">1M+</span>
+                            <p class="countdown__content-desc">
+                                Student Learning
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Testimonial -->
+        <!-- <div class="testi">
+            <div class="maint-content">
+                <div class="testi__content">
+                    <img
+                        src="./assets/icon/dqm-open.svg"
+                        alt=""
+                        class="dqm-open"
+                    />
+                </div>
+                <div class="testi__album"></div>
+            </div>
+        </div> -->
     </body>
 </html>
