@@ -4,6 +4,7 @@
 
 html {
     font-size: 62.5%;
+    transition: all ease 0.3s;
 }
 
 body {
