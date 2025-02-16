@@ -52,13 +52,10 @@ a {
     display: flex;
 }
 
-.header__logo {
-    margin-right: auto;
-}
-
 .header__nav {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 .header__nav-list {
@@ -327,6 +324,7 @@ a {
 }
 
 .courses__list-item-info span {
+    display: inline-block;
     margin-top: 16px;
     color: #767e7e;
     font-family: Poppins;
@@ -347,10 +345,6 @@ a {
     color: #9da6a5;
     font-size: 1.4rem;
     font-weight: 400;
-}
-
-.courses__list-item-info .detail {
-    margin-top: 16px;
 }
 
 .courses__list-item-info .detail span {
@@ -374,7 +368,7 @@ a {
     margin-right: 6px;
 }
 
-.courses__list-item-info .detail .detail-class {
+.courses__list-item-info .detail-class {
     margin-right: 20px;
 }
 
@@ -406,5 +400,158 @@ a {
     color: #767e7e;
     font-size: 1.8rem;
     font-weight: 400;
-    margin-top: 15px;
+    margin-top: 24px;
+}
+
+/* Testimonial */
+.testi__content {
+    width: 38%;
+}
+
+.testi-body {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+}
+
+.testi__content-desc {
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.testi__author {
+    display: inline-block;
+    margin-top: 33px;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.testi__author-name {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.testi__btn {
+    margin-top: 52px;
+}
+
+.testi__btn-left {
+    margin-right: 20px;
+}
+
+.testi__btn-left:hover,
+.testi__btn-right:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.testi__img {
+    width: 679px;
+    height: 481px;
+    object-fit: cover;
+}
+
+/* Call to action */
+.guide {
+    background: #def6f5;
+    margin-top: 140px;
+    padding: 76px 0;
+}
+
+.guide__body {
+    display: flex;
+    align-items: center;
+}
+
+.guide__title {
+    color: #070707;
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.guide__desc {
+    margin-top: 18px;
+    color: #767e7e;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.guide__btn {
+    margin-left: 410px;
+    min-width: 186px;
+    padding: 20px 0;
+    border: transparent;
+    border-radius: 1.4rem;
+    background: #2ac9bf;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.guide__btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* Footer */
+.footer {
+    padding: 131px 135px 50px;
+}
+
+.footer__body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.footer__list-item,
+.footer__list-item-link {
+    color: #535353;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer__list-item-link {
+    margin-bottom: 18px;
+}
+
+.footer__list-item {
+    display: flex;
+    align-items: center;
+}
+
+.footer__list-item:first-child {
+    margin-bottom: 25px;
+    color: #2e2e2e;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer__list-item-icon {
+    display: block;
+    margin-top: -18px;
+    padding-right: 9px;
+}
+
+.footer__list-item-icon:hover {
+    cursor: pointer;
+    opacity: 0.8;
 }

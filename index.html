@@ -17,37 +17,36 @@
             rel="stylesheet"
         />
     </head>
-    <body style="height: 6000px">
+    <body>
         <header class="header header--fixed">
             <div class="main-content">
                 <!-- Header -->
                 <div class="header__head">
                     <!-- Logo -->
-                    <img
-                        class="header__logo"
-                        src="./assets/image/logo.svg"
-                        alt="Besnik."
-                    />
+                    <a href="/">
+                        <img
+                            class="header__logo"
+                            src="./assets/image/logo.svg"
+                            alt="Besnik."
+                        />
+                    </a>
                     <!-- Navigation -->
                     <nav class="header__nav">
                         <ul class="header__nav-list">
                             <li class="header__nav-item">
-                                <a href="#!">Home</a>
+                                <a href="/">Home</a>
                             </li>
                             <li class="header__nav-item">
-                                <a href="#!">Features</a>
+                                <a href="#features">Features</a>
                             </li>
                             <li class="header__nav-item">
-                                <a href="#!">Pricing</a>
+                                <a href="#courses">Pricing</a>
                             </li>
                             <li class="header__nav-item">
-                                <a href="#!">Home</a>
+                                <a href="#footer">About</a>
                             </li>
                             <li class="header__nav-item">
-                                <a href="#!">About</a>
-                            </li>
-                            <li class="header__nav-item">
-                                <a href="#!">Contact</a>
+                                <a href="#footer">Contact</a>
                             </li>
                         </ul>
                         <div class="header__nav-btn">
@@ -97,7 +96,7 @@
         </div>
 
         <!-- Features -->
-        <div class="features">
+        <div class="features" id="features">
             <div class="main-content">
                 <div class="features__body">
                     <div class="features__body-top">
@@ -162,7 +161,7 @@
         </div>
 
         <!-- Courses -->
-        <div class="courses">
+        <div class="courses" id="courses">
             <div class="main-content">
                 <div class="courses__body">
                     <!-- Courses top -->
@@ -182,11 +181,13 @@
                     <div class="courses__list">
                         <ul class="list">
                             <li class="courses__list-item">
-                                <img
-                                    src="./assets/image/course-1.jpg"
-                                    alt=""
-                                    class="courses__list-item-image"
-                                />
+                                <a href="#!">
+                                    <img
+                                        src="./assets/image/course-1.jpg"
+                                        alt=""
+                                        class="courses__list-item-image"
+                                    />
+                                </a>
                                 <div class="courses__list-item-info">
                                     <h3 class="title">Web Design</h3>
                                     <span> Fee <strong>$200</strong> </span>
@@ -203,11 +204,13 @@
                             </li>
 
                             <li class="courses__list-item">
-                                <img
-                                    src="./assets/image/course-2.jpg"
-                                    alt=""
-                                    class="courses__list-item-image"
-                                />
+                                <a href="#!">
+                                    <img
+                                        src="./assets/image/course-2.jpg"
+                                        alt=""
+                                        class="courses__list-item-image"
+                                    />
+                                </a>
                                 <div class="courses__list-item-info">
                                     <h3 class="title">Web Development</h3>
                                     <span> Fee <strong>$250</strong> </span>
@@ -224,11 +227,13 @@
                             </li>
 
                             <li class="courses__list-item">
-                                <img
-                                    src="./assets/image/course-3.jpg"
-                                    alt=""
-                                    class="courses__list-item-image"
-                                />
+                                <a href="#!">
+                                    <img
+                                        src="./assets/image/course-3.jpg"
+                                        alt=""
+                                        class="courses__list-item-image"
+                                    />
+                                </a>
                                 <div class="courses__list-item-info">
                                     <h3 class="title">UI/UX Design</h3>
                                     <span> Fee <strong>$350</strong> </span>
@@ -278,17 +283,155 @@
         </div>
 
         <!-- Testimonial -->
-        <!-- <div class="testi">
-            <div class="maint-content">
-                <div class="testi__content">
-                    <img
-                        src="./assets/icon/dqm-open.svg"
-                        alt=""
-                        class="dqm-open"
-                    />
+        <div class="testi">
+            <div class="main-content">
+                <div class="testi-body">
+                    <div class="testi__content">
+                        <img
+                            src="./assets/icon/dqm-open.svg"
+                            alt=""
+                            class="dqm-open"
+                        />
+                        <p class="testi__content-desc">
+                            “They are the best people. And this is the suitable
+                            platform to learn from distance.”
+                        </p>
+                        <span class="testi__author">
+                            <strong class="testi__author-name">
+                                - Ben Foakes, </strong
+                            >student.
+                        </span>
+                        <div class="testi__btn">
+                            <a href="#!">
+                                <img
+                                    src="./assets/icon/left.svg"
+                                    alt=""
+                                    class="testi__btn-left"
+                                />
+                            </a>
+                            <a href="#!"
+                                ><img
+                                    src="./assets/icon/right.svg"
+                                    alt=""
+                                    class="testi__btn-right"
+                            /></a>
+                        </div>
+                    </div>
+                    <div class="testi__album">
+                        <img
+                            src="./assets/image/testi.png"
+                            alt="Author"
+                            class="testi__img"
+                        />
+                    </div>
                 </div>
-                <div class="testi__album"></div>
             </div>
-        </div> -->
+        </div>
+
+        <!-- Guide Call to action -->
+        <div class="guide">
+            <div class="main-content">
+                <div class="guide__body">
+                    <div class="guide__content">
+                        <h2 class="guide__title">Ready to Get Admit</h2>
+                        <span class="guide__desc"
+                            >Create your account and Boost your Career.</span
+                        >
+                    </div>
+                    <a href="#!" class="guide__cta">
+                        <button class="guide__btn">Get Started</button>
+                    </a>
+                </div>
+            </div>
+        </div>
     </body>
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="main-content">
+            <div class="footer__body">
+                <img
+                    src="./assets/image/logo.svg"
+                    alt=""
+                    class="footer__logo"
+                />
+                <ul class="footer__list">
+                    <li class="footer__list-item">Company</li>
+                    <li class="footer__list-item">
+                        <a href="#!" class="footer__list-item-link">About</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#!" class="footer__list-item-link">Careers</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#!" class="footer__list-item-link">Press</a>
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__list-item">Community</li>
+                    <li class="footer__list-item">
+                        <a href="#!" class="footer__list-item-link"
+                            >Team Plans</a
+                        >
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#!" class="footer__list-item-link">Blog</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#!" class="footer__list-item-link">Students</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#!" class="footer__list-item-link"
+                            >Schoolarships</a
+                        >
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__list-item">Teaching</li>
+                    <li class="footer__list-item">
+                        <a href="#!" class="footer__list-item-link"
+                            >Become a teacher</a
+                        >
+                    </li>
+                    <li class="footer__list-item">
+                        <a href="#!" class="footer__list-item-link"
+                            >Teaching academy</a
+                        >
+                    </li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__list-item">Be social</li>
+                    <li class="footer__list-item">
+                        <img
+                            src="./assets/image/twitter.svg"
+                            class="footer__list-item-icon"
+                        ></img>
+                        <a href="#!" class="footer__list-item-link">Twitter</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <img
+                            src="./assets/image/facebook.svg"
+                            class="footer__list-item-icon"
+                        ></img>
+                        <a href="#!" class="footer__list-item-link">Facebook</a>
+                    </li>
+                    <li class="footer__list-item">
+                        <img
+                            src="./assets/image/instagram.svg"
+                            class="footer__list-item-icon"
+                        ></img>
+                        <a href="#!" class="footer__list-item-link"
+                            >Instagram</a
+                        >
+                    </li>
+                    <li class="footer__list-item">
+                        <img
+                            src="./assets/image/linkedin.svg"
+                            class="footer__list-item-icon"
+                        ></img>
+                        <a href="#!" class="footer__list-item-link">Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </html>
