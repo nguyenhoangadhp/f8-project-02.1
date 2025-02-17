@@ -5,6 +5,7 @@
 html {
     font-size: 62.5%;
     transition: all ease 0.3s;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -261,7 +262,7 @@ a {
     font-weight: 700;
 }
 
-.courses .courses-top .desc {
+.courses__top .desc {
     width: 525px;
     color: #767e7e;
     font-size: 1.8rem;
@@ -297,7 +298,10 @@ a {
 
 .courses__list-item {
     width: 31%;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .courses__list-item-image {
@@ -308,14 +312,16 @@ a {
 }
 
 .courses__list-item-info {
-    padding: 18px 82px 29px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 18px 0 29px 25px;
     width: 325px;
+    min-height: 195px;
     border-radius: 8px;
     background: #fff;
     box-shadow: 0px 16px 90px 0px rgba(0, 0, 0, 0.05);
-    position: absolute;
-    right: 17px;
-    bottom: -132px;
+    margin-top: -70px;
 }
 
 .courses__list-item-info-title {
@@ -363,10 +369,10 @@ a {
     display: inline-block;
     width: 6px;
     height: 6px;
-    background-color: var(--primary-color);
     border-radius: 50%;
-    transform: translateY(-50%);
-    margin-right: 6px;
+    margin-right: 10px;
+    background-color: var(--primary-color);
+    transform: translateY(-35%);
 }
 
 .courses__list-item-info .detail-class {
@@ -552,7 +558,15 @@ a {
     padding-right: 9px;
 }
 
-.footer__list-item-icon:hover {
-    cursor: pointer;
-    opacity: 0.8;
+.footer__list-item-link:hover {
+    text-decoration: underline;
+}
+
+/* Copy right */
+.footer__copy-right {
+    margin-top: 80px;
+    text-align: center;
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    font-weight: 400;
 }

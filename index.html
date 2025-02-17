@@ -5,6 +5,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>F8 Project 2.1</title>
 
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/assets/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/assets/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/assets/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
         <!-- Link css -->
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
@@ -18,52 +36,52 @@
         />
     </head>
     <body>
-        <header class="header header--fixed">
-            <div class="main-content">
-                <!-- Header -->
-                <div class="header__head">
-                    <!-- Logo -->
-                    <a href="/">
-                        <img
-                            class="header__logo"
-                            src="./assets/image/logo.svg"
-                            alt="Besnik."
-                        />
-                    </a>
-                    <!-- Navigation -->
-                    <nav class="header__nav">
-                        <ul class="header__nav-list">
-                            <li class="header__nav-item">
-                                <a href="/">Home</a>
-                            </li>
-                            <li class="header__nav-item">
-                                <a href="#features">Features</a>
-                            </li>
-                            <li class="header__nav-item">
-                                <a href="#courses">Pricing</a>
-                            </li>
-                            <li class="header__nav-item">
-                                <a href="#footer">About</a>
-                            </li>
-                            <li class="header__nav-item">
-                                <a href="#footer">Contact</a>
-                            </li>
-                        </ul>
-                        <div class="header__nav-btn">
-                            <a href="#!" class="header__nav-btn--sign-in"
-                                >Sign in</a
-                            >
-                            <a href="#!" class="header__nav-btn--sign-up"
-                                >Sign up</a
-                            >
-                        </div>
-                    </nav>
+            <header id="header" class="header header--fixed">
+                <div class="main-content">
+                    <!-- Header -->
+                    <div class="header__head">
+                        <!-- Logo -->
+                        <a href="#">
+                            <img
+                                class="header__logo"
+                                src="./assets/image/logo.svg"
+                                alt="Besnik."
+                            />
+                        </a>
+                        <!-- Navigation -->
+                        <nav class="header__nav">
+                            <ul class="header__nav-list">
+                                <li class="header__nav-item">
+                                    <a href="#">Home</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#features">Features</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#courses">Pricing</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#footer">About</a>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#footer">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="header__nav-btn">
+                                <a href="#!" class="header__nav-btn--sign-in"
+                                    >Sign in</a
+                                >
+                                <a href="#!" class="header__nav-btn--sign-up"
+                                    >Sign up</a
+                                >
+                            </div>
+                        </nav>
+                    </div>
                 </div>
-            </div>
         </header>
 
         <!-- Hero -->
-        <div class="hero">
+        <div id="hero" class="hero">
             <div class="main-content">
                 <div class="hero__body">
                     <div class="hero__body-info">
@@ -189,7 +207,7 @@
                                     />
                                 </a>
                                 <div class="courses__list-item-info">
-                                    <h3 class="title">Web Design</h3>
+                                    <h3 class="courses__list-item-info-title">Web Design</h3>
                                     <span> Fee <strong>$200</strong> </span>
                                     <p class="desc">
                                         Web design basic to higer level
@@ -212,7 +230,7 @@
                                     />
                                 </a>
                                 <div class="courses__list-item-info">
-                                    <h3 class="title">Web Development</h3>
+                                    <h3 class="courses__list-item-info-title">Web Development</h3>
                                     <span> Fee <strong>$250</strong> </span>
                                     <p class="desc">
                                         Web development basic to higer level
@@ -235,7 +253,7 @@
                                     />
                                 </a>
                                 <div class="courses__list-item-info">
-                                    <h3 class="title">UI/UX Design</h3>
+                                    <h3 class="courses__list-item-info-title">UI/UX Design</h3>
                                     <span> Fee <strong>$350</strong> </span>
                                     <p class="desc">
                                         UI/UX design basic to higer level
@@ -431,6 +449,9 @@
                         <a href="#!" class="footer__list-item-link">Linkedin</a>
                     </li>
                 </ul>
+            </div>
+            <div class="footer__copy-right">
+                © Copyright 2020 by Mayad Ahmed. All right reserved.
             </div>
         </div>
     </footer>
